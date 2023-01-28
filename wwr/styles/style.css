@@ -30,7 +30,11 @@ main section {
 .icon {
     width: 80px;
 }
-
+img{
+    border-radius: 4px;
+    height: auto;
+    max-width: 100%;
+}
 
 
 
