@@ -35,9 +35,6 @@ img{
     height: auto;
     max-width: 100%;
 }
-
-
-
 body{
     background-color: #ffffff;
 }
@@ -73,7 +70,7 @@ h4{
 }
 .join:hover{
     background-color: #FF3131;
-    color: #fffffa;
+    color: #ffffff;
 }
 
 .msg h2{
