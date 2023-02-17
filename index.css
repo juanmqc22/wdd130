@@ -1,0 +1,57 @@
+body {
+    background-image: url(pexels-roberto-nickson-2559941.jpg);
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    background-position: center;
+}
+A {
+    text-decoration: none;
+}
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin: auto;
+    background-color: #031926;
+    color: #FFFCFF;
+    margin-top: 30px;
+    
+}
+h2{
+    color: #FFFCFF;
+    background-color: #031926;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#img-links{
+    display: grid;
+    place-items: center;
+
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 430px;
+}
+
+section img {
+    width: 150px;
+    height: 300px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+section img:hover {
+    cursor: pointer;
+    width: 250px;
+    opacity: 1;
+    filter: contrast(120%);
+}
