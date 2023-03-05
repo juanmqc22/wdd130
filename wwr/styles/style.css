@@ -313,11 +313,8 @@ footer p {
     background-color: #100000;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    opacity: .9;
     justify-items: center;
-    /* center horizontally */
     align-items: center;
-    /* center vertically */
 }
 
 #logo_link_river {
